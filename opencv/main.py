@@ -1,8 +1,20 @@
 
 
 import cv2
+import numpy as np
 from config import STREAM_URL, FRAME_WIDTH
-from camera import get_camera
+from camera import get_camera, detect_red
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     camera = get_camera()
