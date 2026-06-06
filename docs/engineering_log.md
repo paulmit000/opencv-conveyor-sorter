@@ -51,3 +51,25 @@
 ## Notes
 - Need to choose between training a computer vision model or using a pretrained model
 - Need to figure out how to establish serial communication between the ESP32 and the Arduino board
+
+
+---
+
+# June 6, 2026
+
+## Progress
+- Created color detection prototype for the ESP32
+- Created 3 new python files: camera.py, config.py, and main.py
+
+## Challenges
+-HSV misidentifies colors
+
+## Planned Improvements
+- Potentially train an Edge AI model
+- Upload this AI model to the ESP32 so it can run offline
+- Implement serial communication for the servo to work
+- Fix HSV misidentification of colors
+
+## Notes
+- Training an Edge AI model would take 100-300 images for each color classification
+- For the purpose of building a object sort conveyor, HSV is more feasible
