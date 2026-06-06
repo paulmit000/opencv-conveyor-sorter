@@ -40,3 +40,14 @@
 ## Notes
 - Belt tracking/alignment appears to be the main mechanical challenge so far.
 - Need to test different belt materials and roller spacing.
+
+
+---
+
+# June 5, 2026
+
+## Progress
+- Researched MobileNetv1 and FOMO CV models for ESP32
+## Notes
+- Need to choose between training a computer vision model or using a pretrained model
+- Need to figure out how to establish serial communication between the ESP32 and the Arduino board
